@@ -1,8 +1,11 @@
 {
-  "name": "project-title",
+  "name": "personal-website",
+  "author": "Dexter Crago",
+  "description": "",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
