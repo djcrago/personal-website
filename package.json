@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "author": "Dexter Crago",
-  "description": "",
+  "description": "This repository houses my personal website! Feel free to check out the live website and poke around.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
