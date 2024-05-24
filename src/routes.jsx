@@ -1,8 +1,8 @@
 import App from './App';
-import Contact from './components/Contact/Contact';
+import ContactPage from './components/ContactPage/ContactPage';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import Portfolio from './components/Portfolio/Portfolio';
-import Resume from './components/Resume/Resume';
+import PortfolioPage from './components/PortfolioPage/PortfolioPage';
+import ResumePage from './components/ResumePage/ResumePage';
 
 const routes = [
   {
@@ -14,15 +14,15 @@ const routes = [
       },
       {
         path: '/contact',
-        element: <Contact />,
+        element: <ContactPage />,
       },
       {
         path: '/portfolio',
-        element: <Portfolio />,
+        element: <PortfolioPage />,
       },
       {
         path: '/resume',
-        element: <Resume />,
+        element: <ResumePage />,
       },
     ],
   },
