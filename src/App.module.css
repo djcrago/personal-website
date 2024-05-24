@@ -2,3 +2,7 @@ img {
   height: 50vh;
   width: auto;
 }
+
+.headline {
+  font-weight: bold;
+}
