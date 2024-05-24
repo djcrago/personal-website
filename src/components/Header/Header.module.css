@@ -1,0 +1,10 @@
+.links {
+  display: flex;
+  gap: 2vw;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
