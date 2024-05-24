@@ -4,12 +4,17 @@ function Header() {
   return (
     <div>
       <h1>
-        <a href="/">Dexter Crago</a>
+        <a className={styles.link} href="/">
+          Dexter Crago
+        </a>
       </h1>
       <nav className={styles.links}>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/resume">Resume</a>
-        <a href="/contact">Contact</a>
+        <a className={styles.link} href="/portfolio">
+          Portfolio
+        </a>
+        <a className={styles.link} href="/resume">
+          Resume
+        </a>
       </nav>
     </div>
   );
