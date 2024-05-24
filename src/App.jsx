@@ -1,7 +1,7 @@
 import Header from './components/Header/Header';
 import Portrait from './assets/portrait.png';
 import styles from './App.module.css';
-import ContactPage from './components/Contact/Contact';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -50,7 +50,17 @@ function App() {
           </p>
           <a href="/">(NOT COMPLETED: Video)</a>
         </div>
-        <ContactPage />
+        <div>
+          <p>
+            If you&rsquo;re interested in seeing more of the cool stuff
+            I&rsquo;ve made, visit my <a href="/portfolio">portfolio page</a>.
+          </p>
+          <p>
+            Or if you want to know more about my background, check out my{' '}
+            <a href="/resume">resume</a>.
+          </p>
+        </div>
+        <Contact />
       </div>
     </>
   );
