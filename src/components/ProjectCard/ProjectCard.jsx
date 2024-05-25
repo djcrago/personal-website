@@ -26,6 +26,7 @@ ProjectCard.propTypes = {
   img: PropTypes.string,
   title: PropTypes.string,
   desc: PropTypes.string,
+  live: PropTypes.string,
 };
 
 export default ProjectCard;
