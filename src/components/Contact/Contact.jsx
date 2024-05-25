@@ -1,27 +1,44 @@
+import GitHub from '../../assets/github.svg';
+import X from '../../assets/x.svg';
+import LinkedIn from '../../assets/linkedin.svg';
 import styles from './Contact.module.css';
 
 function Contact() {
   return (
-    <div>
-      <div>Email: dexter18crago@gmail.com</div>
-      <div>Phone: (406) 241-7556</div>
-      <div>
-        <a
-          href="https://www.linkedin.com/in/dexter-crago-62609b2b6/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-      </div>
-      <div>
-        <a href="https://x.com/djcrago" target="_blank">
-          X (formerly Twitter)
-        </a>
-      </div>
-      <div>
-        <a href="https://github.com/djcrago" target="_blank">
-          GitHub
-        </a>
+    <div className={styles.contact}>
+      <h2>Contact Me</h2>
+      <div className={styles.contactInfo}>
+        <div className={styles.personalInfo}>
+          <p>Email: dexter18crago@gmail.com</p>
+          <p>Phone: (406) 241-7556</p>
+        </div>
+
+        <div className={styles.socialInfo}>
+          <a
+            className={styles.contactContainer}
+            href="https://www.linkedin.com/in/dexter-crago-62609b2b6/"
+            target="_blank"
+          >
+            <img className={styles.logo} src={LinkedIn} />
+            <p className={styles.link}>LinkedIn</p>
+          </a>
+          <a
+            className={styles.contactContainer}
+            href="https://x.com/djcrago"
+            target="_blank"
+          >
+            <img className={styles.logo} src={X} />
+            <p className={styles.link}>X (formerly Twitter)</p>
+          </a>
+          <a
+            className={styles.contactContainer}
+            href="https://github.com/djcrago"
+            target="_blank"
+          >
+            <img className={styles.logo} src={GitHub} />
+            <p className={styles.link}>GitHub</p>
+          </a>
+        </div>
       </div>
     </div>
   );
