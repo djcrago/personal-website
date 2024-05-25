@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styles from './Project.module.css';
 
 function Project({ src, img, title, desc }) {
@@ -11,5 +12,12 @@ function Project({ src, img, title, desc }) {
     </div>
   );
 }
+
+Project.propTypes = {
+  src: PropTypes.string,
+  img: PropTypes.string,
+  title: PropTypes.string,
+  desc: PropTypes.string,
+};
 
 export default Project;
