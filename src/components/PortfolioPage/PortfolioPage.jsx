@@ -16,7 +16,8 @@ function PortfolioPage() {
   return (
     <>
       <Header />
-      <div>
+      <p>Here are some of the things I&rsquo;ve been working on.</p>
+      <div className={styles.projects}>
         <ProjectCard
           src="https://github.com/djcrago/blog-api"
           img={BlogApi}
