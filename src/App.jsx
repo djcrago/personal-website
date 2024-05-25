@@ -1,12 +1,12 @@
 import Header from './components/Header/Header';
 import Portrait from './assets/portrait.png';
 import styles from './App.module.css';
-import Contact from './components/Contact/Contact';
 import ProjectCard from './components/ProjectCard/ProjectCard';
 import BlogApi from './assets/blog-api.png';
 import MembersOnly from './assets/members-only.png';
 import ShoppingCart from './assets/shopping-cart.png';
 import TodoList from './assets/todo-list.png';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -95,7 +95,7 @@ function App() {
             <a href="/resume">resume</a>.
           </p>
         </div>
-        <Contact />
+        <Footer />
       </div>
     </>
   );

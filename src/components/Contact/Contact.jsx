@@ -3,12 +3,8 @@ import styles from './Contact.module.css';
 function Contact() {
   return (
     <div>
-      <div>
-        Email: <a href="">dexter18crago@gmail.com</a>
-      </div>
-      <div>
-        Phone: <a href="">(406) 241-7556</a>
-      </div>
+      <div>Email: dexter18crago@gmail.com</div>
+      <div>Phone: (406) 241-7556</div>
       <div>
         <a href="https://www.linkedin.com/in/dexter-crago-62609b2b6/">
           LinkedIn
