@@ -5,6 +5,7 @@ function ResumePage() {
   return (
     <>
       <Header />
+      {/* Include both information as HTML and a link to download a pdf */}
     </>
   );
 }
