@@ -3,6 +3,10 @@ import Portrait from './assets/portrait.png';
 import styles from './App.module.css';
 import Contact from './components/Contact/Contact';
 import ProjectCard from './components/ProjectCard/ProjectCard';
+import BlogApi from './assets/blog-api.png';
+import MembersOnly from './assets/members-only.png';
+import ShoppingCart from './assets/shopping-cart.png';
+import TodoList from './assets/todo-list.png';
 
 function App() {
   return (
@@ -57,25 +61,25 @@ function App() {
           <div>
             <ProjectCard
               src="https://github.com/djcrago/blog-api"
-              img=""
+              img={BlogApi}
               title="Blog Api"
               desc='This repository houses three connected projects that make up an example blog website. A backend API (the "backend" directory), a website where visitors can read and comment on blog posts (the "frontend-user" directory), and a website for the blog author to create, edit, and delete blog posts (the "frontend-owner" directory).'
             />
             <ProjectCard
               src="https://github.com/djcrago/members-only"
-              img=""
+              img={MembersOnly}
               title="Members Only"
               desc="This repository houses an example messaging board website where users are given different abilities and permissions based on the status of their account."
             />
             <ProjectCard
               src="https://github.com/djcrago/shopping-cart"
-              img=""
+              img={ShoppingCart}
               title="Shopping Cart"
               desc="This repository houses an example e-commerce website where users can add and remove items from their cart."
             />
             <ProjectCard
               src="https://github.com/djcrago/todo-list"
-              img=""
+              img={TodoList}
               title="Todo List"
               desc="This repository houses a todo app where users can create todo items and different projects to place those todo items in."
             />
