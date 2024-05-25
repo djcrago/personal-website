@@ -2,7 +2,7 @@ import Header from './components/Header/Header';
 import Portrait from './assets/portrait.png';
 import styles from './App.module.css';
 import Contact from './components/Contact/Contact';
-import Project from './components/Project/Project';
+import ProjectCard from './components/ProjectCard/ProjectCard';
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
         <div>
           <p>
             For the past year I have been working through{' '}
-            <a href="https://www.theodinproject.com/">The Odin Project</a>, a
-            &ldquo;high quality coding education maintained by an open source
+            <a href="https://www.theodinproject.com/">The Odin ProjectCard</a>,
+            a &ldquo;high quality coding education maintained by an open source
             community.&rdquo; During this program I&rsquo;ve developed{' '}
             <a href="/portfolio">projects</a> from simple to complex that have
             prepared me to start adding value to your team right away.
@@ -55,29 +55,29 @@ function App() {
           <h2>Recent Projects</h2>
           <p>Here are a few of the things I&rsquo;ve been working on lately.</p>
           <div>
-            <Project
+            <ProjectCard
               src="https://github.com/djcrago/blog-api"
               img=""
               title="Blog Api"
               desc='This repository houses three connected projects that make up an example blog website. A backend API (the "backend" directory), a website where visitors can read and comment on blog posts (the "frontend-user" directory), and a website for the blog author to create, edit, and delete blog posts (the "frontend-owner" directory).'
             />
-            <Project
+            <ProjectCard
               src="https://github.com/djcrago/members-only"
               img=""
               title="Members Only"
-              desc=""
+              desc="This repository houses an example messaging board website where users are given different abilities and permissions based on the status of their account."
             />
-            <Project
+            <ProjectCard
               src="https://github.com/djcrago/shopping-cart"
               img=""
               title="Shopping Cart"
-              desc=""
+              desc="This repository houses an example e-commerce website where users can add and remove items from their cart."
             />
-            <Project
+            <ProjectCard
               src="https://github.com/djcrago/todo-list"
               img=""
               title="Todo List"
-              desc=""
+              desc="This repository houses a todo app where users can create todo items and different projects to place those todo items in."
             />
           </div>
           <p>

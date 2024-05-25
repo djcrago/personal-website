@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import styles from './Project.module.css';
+import styles from './ProjectCard.module.css';
 
-function Project({ src, img, title, desc }) {
+function ProjectCard({ src, img, title, desc }) {
   return (
     <div className={styles.project}>
       <a href={src}>
@@ -13,11 +13,11 @@ function Project({ src, img, title, desc }) {
   );
 }
 
-Project.propTypes = {
+ProjectCard.propTypes = {
   src: PropTypes.string,
   img: PropTypes.string,
   title: PropTypes.string,
   desc: PropTypes.string,
 };
 
-export default Project;
+export default ProjectCard;
