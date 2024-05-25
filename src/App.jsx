@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <hr />
       <div className={styles.main}>
         <div className={styles.aboutMe}>
           <p className={styles.headline}>
@@ -22,10 +23,9 @@ function App() {
             programming fundamentals, lots of experience fixing my own code, and
             a strong drive to continue learning and improving my skills.
           </p>
-        </div>
-        <div>
           <img src={Portrait} alt="Dexter Crago" />
         </div>
+        <hr />
         <div>
           <p>
             For the past year I have been working through{' '}
@@ -48,6 +48,7 @@ function App() {
             and a hard-working attitude that brings reliability and focus.
           </p>
         </div>
+        <hr />
         <div>
           <p>
             Feel free to watch this video where I walk through one of my
@@ -55,6 +56,7 @@ function App() {
           </p>
           <a href="/">(NOT COMPLETED: Video)</a>
         </div>
+        <hr />
         <div>
           <h2>Recent Projects</h2>
           <p>Here are a few of the things I&rsquo;ve been working on lately.</p>
@@ -84,17 +86,19 @@ function App() {
               desc="This repository houses a todo app where users can create todo items and different projects to place those todo items in."
             />
           </div>
+        </div>
+        <hr />
+        <div>
           <p>
             If you&rsquo;re interested in seeing more of the cool stuff
             I&rsquo;ve made, visit my <a href="/portfolio">portfolio page</a>.
           </p>
-        </div>
-        <div>
           <p>
             Or if you want to know more about my background, check out my{' '}
             <a href="/resume">resume</a>.
           </p>
         </div>
+        <hr />
         <Footer />
       </div>
     </>
