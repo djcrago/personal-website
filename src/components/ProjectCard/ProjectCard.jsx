@@ -1,16 +1,22 @@
 import PropTypes from 'prop-types';
+import GitHub from '../../assets/github.svg';
 import styles from './ProjectCard.module.css';
 
-function ProjectCard({ src, img, title, desc }) {
+function ProjectCard({ src, img, title, desc, live }) {
   return (
     <div className={styles.project}>
-      <a href={src} target="_blank">
-        <img src={img} alt={title} />
+      <a href={live} target="_blank">
+        <img className={styles.projectImg} src={img} alt={title} />
       </a>
       <h3>
         <p>{title}</p>
       </h3>
-      <p className={styles.desc}>{desc}</p>
+      <div className={styles.descLogoContainer}>
+        <p className={styles.desc}>{desc}</p>
+        <a href={src} target="_blank">
+          <img className={styles.gitHubLogo} src={GitHub} />
+        </a>
+      </div>
     </div>
   );
 }

@@ -5,22 +5,38 @@
   max-width: 600px;
 }
 
-.project img {
+.projectImg {
+  max-width: 600px;
+  height: auto;
   transition: filter 0.1s;
   filter: grayscale(100%);
 }
 
-.project img:hover {
+.projectImg:hover {
   transition: filter 0.1s;
   filter: grayscale(0%);
+}
+
+.descLogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
 }
 
 .desc {
   font-size: 1rem;
 }
 
+.gitHubLogo {
+  width: 30px;
+}
+
 @media (min-width: 1200px) {
   .project {
+    max-width: 450px;
+  }
+
+  .projectImg {
     max-width: 450px;
   }
 }

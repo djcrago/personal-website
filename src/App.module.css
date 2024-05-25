@@ -27,7 +27,7 @@ section {
   color: black;
 }
 
-img {
+.portrait {
   max-width: 600px;
   height: auto;
 }
@@ -68,7 +68,7 @@ h2 {
     flex-wrap: wrap;
   }
 
-  img {
+  .portrait {
     max-width: 400px;
   }
 }
