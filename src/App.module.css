@@ -38,6 +38,12 @@ h2 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
 .link {
   color: rgb(46, 46, 46);
 }
@@ -54,6 +60,12 @@ h2 {
 
   .intro {
     max-width: 500px;
+  }
+
+  .projects {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   img {
