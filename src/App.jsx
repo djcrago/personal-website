@@ -32,7 +32,11 @@ function App() {
         <section>
           <p>
             For the past year I have been working through{' '}
-            <a className={styles.link} href="https://www.theodinproject.com/">
+            <a
+              className={styles.link}
+              href="https://www.theodinproject.com/"
+              target="_blank"
+            >
               The Odin Project
             </a>
             , a &ldquo;high quality coding education maintained by an open
@@ -56,6 +60,7 @@ function App() {
             communication skills that benefit both your team and your clients,
             and a hard-working attitude that brings reliability and focus.
           </p>
+          <p></p>
           <p>
             If you want to know more about my background, check out my{' '}
             <a className={styles.link} href="/resume">
@@ -76,30 +81,33 @@ function App() {
         <section>
           <h2>Recent Projects</h2>
           <p>Here are a few of the things I&rsquo;ve been working on lately.</p>
-          <ProjectCard
-            src="https://github.com/djcrago/blog-api"
-            img={BlogApi}
-            title="Blog Api"
-            desc='This repository houses three connected projects that make up an example blog website. A backend API (the "backend" directory), a website where visitors can read and comment on blog posts (the "frontend-user" directory), and a website for the blog author to create, edit, and delete blog posts (the "frontend-owner" directory).'
-          />
-          <ProjectCard
-            src="https://github.com/djcrago/members-only"
-            img={MembersOnly}
-            title="Members Only"
-            desc="This repository houses an example messaging board website where users are given different abilities and permissions based on the status of their account."
-          />
-          <ProjectCard
-            src="https://github.com/djcrago/shopping-cart"
-            img={ShoppingCart}
-            title="Shopping Cart"
-            desc="This repository houses an example e-commerce website where users can add and remove items from their cart."
-          />
-          <ProjectCard
-            src="https://github.com/djcrago/todo-list"
-            img={TodoList}
-            title="Todo List"
-            desc="This repository houses a todo app where users can create todo items and different projects to place those todo items in."
-          />
+          <div className={styles.projects}>
+            <ProjectCard
+              src="https://github.com/djcrago/blog-api"
+              img={BlogApi}
+              title="Blog Api"
+              desc="Blog Api is three connected projects that make up an example blog website. A backend API, a website where visitors can read and comment on blog posts, and a website for the blog author to create, edit, and delete blog posts."
+            />
+            <ProjectCard
+              src="https://github.com/djcrago/members-only"
+              img={MembersOnly}
+              title="Members Only"
+              desc="Members Only is an example messaging board website where users are given different abilities and permissions based on the status of their account. For example, members can see the author and date of posts, and administrators can delete posts."
+            />
+            <ProjectCard
+              src="https://github.com/djcrago/shopping-cart"
+              img={ShoppingCart}
+              title="Shopping Cart"
+              desc="Shopping Cart is an example React e-commerce website where users can add and remove items from their cart. All shop items are gathered from an API."
+            />
+            <ProjectCard
+              src="https://github.com/djcrago/todo-list"
+              img={TodoList}
+              title="Todo List"
+              desc="Todo List is a todo app where users can create todo items and different projects to place those todo items in."
+            />
+          </div>
+          <p></p>
           <p>
             If you&rsquo;re interested in seeing more of the cool stuff
             I&rsquo;ve made, visit my{' '}
