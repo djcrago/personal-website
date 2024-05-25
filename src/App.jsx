@@ -2,6 +2,7 @@ import Header from './components/Header/Header';
 import Portrait from './assets/portrait.png';
 import styles from './App.module.css';
 import Contact from './components/Contact/Contact';
+import Project from './components/Project/Project';
 
 function App() {
   return (
@@ -51,10 +52,40 @@ function App() {
           <a href="/">(NOT COMPLETED: Video)</a>
         </div>
         <div>
+          <h2>Recent Projects</h2>
+          <p>Here are a few of the things I&rsquo;ve been working on lately.</p>
+          <div>
+            <Project
+              src="https://github.com/djcrago/blog-api"
+              img=""
+              title="Blog Api"
+              desc='This repository houses three connected projects that make up an example blog website. A backend API (the "backend" directory), a website where visitors can read and comment on blog posts (the "frontend-user" directory), and a website for the blog author to create, edit, and delete blog posts (the "frontend-owner" directory).'
+            />
+            <Project
+              src="https://github.com/djcrago/members-only"
+              img=""
+              title="Members Only"
+              desc=""
+            />
+            <Project
+              src="https://github.com/djcrago/shopping-cart"
+              img=""
+              title="Shopping Cart"
+              desc=""
+            />
+            <Project
+              src="https://github.com/djcrago/todo-list"
+              img=""
+              title="Todo List"
+              desc=""
+            />
+          </div>
           <p>
             If you&rsquo;re interested in seeing more of the cool stuff
             I&rsquo;ve made, visit my <a href="/portfolio">portfolio page</a>.
           </p>
+        </div>
+        <div>
           <p>
             Or if you want to know more about my background, check out my{' '}
             <a href="/resume">resume</a>.
