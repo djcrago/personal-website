@@ -1,5 +1,4 @@
 import GitHub from '../../assets/github.svg';
-import X from '../../assets/x.svg';
 import LinkedIn from '../../assets/linkedin.svg';
 import styles from './Contact.module.css';
 
@@ -21,14 +20,6 @@ function Contact() {
           >
             <img className={styles.logo} src={LinkedIn} />
             <p className={styles.link}>LinkedIn</p>
-          </a>
-          <a
-            className={styles.contactContainer}
-            href="https://x.com/djcrago"
-            target="_blank"
-          >
-            <img className={styles.logo} src={X} />
-            <p className={styles.link}>X (formerly Twitter)</p>
           </a>
           <a
             className={styles.contactContainer}
