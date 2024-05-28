@@ -2,8 +2,61 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* gap: 2vh; */
 }
 
 .link {
   color: rgb(46, 46, 46);
+}
+
+.resumeHeader {
+  margin-bottom: 2vh;
+  align-self: flex-start;
+}
+
+.resumeSection,
+.skillsSection,
+.organizationsSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vw;
+  list-style: none;
+}
+
+.resumeSection li {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 35vw;
+  min-width: min-content;
+}
+
+.skillsSection li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-weight: 600;
+  width: min-content;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.long {
+  width: 30vw;
+}
+
+.pdfLink {
+  align-self: center;
+}
+
+@media (min-width: 1200px) {
+  .resumeSection li {
+    width: 17vw;
+  }
+
+  .skillsSection li {
+    width: calc(60vw / 7);
+  }
 }
