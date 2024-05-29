@@ -1,5 +1,5 @@
 import Header from './components/Header/Header';
-import Portrait from './assets/portrait.png';
+import Portrait from './assets/portrait-picture.png';
 import styles from './App.module.css';
 import ProjectCard from './components/ProjectCard/ProjectCard';
 import BlogApi from './assets/blog-api.png';
@@ -75,7 +75,13 @@ function App() {
             Feel free to watch this video where I walk through one of my
             full-stack projects.
           </p>
-          <a href="/">(NOT COMPLETED: Video)</a>
+          <iframe
+            src=""
+            allow="fullscreen"
+            title="Blog API Video"
+            width="640px"
+            height="360px"
+          ></iframe>
         </section>
         <hr />
         <section>
