@@ -76,11 +76,11 @@ function App() {
             full-stack projects.
           </p>
           <iframe
-            src=""
-            allow="fullscreen"
+            src="https://youtube.com/embed/6_v0XxLySDE"
+            allow="autoplay; encrypted-media; fullscreen"
             title="Blog API Video"
-            width="640px"
             height="360px"
+            width="640px"
           ></iframe>
         </section>
         <hr />
