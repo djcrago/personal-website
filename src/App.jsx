@@ -86,8 +86,6 @@ function App() {
             src="https://youtube.com/embed/6_v0XxLySDE"
             allow="autoplay; encrypted-media; fullscreen"
             title="Blog API Video"
-            height="360px"
-            width="640px"
           ></iframe>
         </section>
         <hr />
