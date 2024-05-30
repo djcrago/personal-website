@@ -1,21 +1,22 @@
 import PropTypes from 'prop-types';
 import GitHub from '../../assets/github.svg';
 import styles from './ProjectCard.module.css';
+import { Link } from 'react-router-dom';
 
 function ProjectCard({ src, img, title, desc, live }) {
   return (
     <div className={styles.project}>
-      <a href={live} target="_blank">
+      <Link to={live} target="_blank">
         <img className={styles.projectImg} src={img} alt={title} />
-      </a>
+      </Link>
       <h3>
         <p>{title}</p>
       </h3>
       <div className={styles.descLogoContainer}>
         <p className={styles.desc}>{desc}</p>
-        <a href={src} target="_blank">
+        <Link to={src} target="_blank">
           <img className={styles.gitHubLogo} src={GitHub} />
-        </a>
+        </Link>
       </div>
     </div>
   );

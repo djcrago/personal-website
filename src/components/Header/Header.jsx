@@ -1,23 +1,24 @@
 import Icon from '@mdi/react';
 import { mdiCircleSmall } from '@mdi/js';
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div className={styles.header}>
       <h1>
-        <a className={styles.h1} href="/">
+        <Link className={styles.h1} to="/">
           Dexter Crago
-        </a>
+        </Link>
       </h1>
       <nav>
-        <a className={styles.link} href="/portfolio">
+        <Link className={styles.link} to="/portfolio">
           Portfolio
-        </a>
+        </Link>
         <Icon className={styles.dot} path={mdiCircleSmall} size={1.5} />
-        <a className={styles.link} href="/resume">
+        <Link className={styles.link} to="/resume">
           Resume
-        </a>
+        </Link>
       </nav>
     </div>
   );

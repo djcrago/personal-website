@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import GitHub from '../../assets/github.svg';
 import LinkedIn from '../../assets/linkedin.svg';
 import styles from './Contact.module.css';
@@ -13,22 +14,22 @@ function Contact() {
         </div>
 
         <div className={styles.socialInfo}>
-          <a
+          <Link
             className={styles.contactContainer}
-            href="https://www.linkedin.com/in/dexter-crago-62609b2b6/"
+            to="https://www.linkedin.com/in/dexter-crago-62609b2b6/"
             target="_blank"
           >
             <img className={styles.logo} src={LinkedIn} />
             <p className={styles.link}>LinkedIn</p>
-          </a>
-          <a
+          </Link>
+          <Link
             className={styles.contactContainer}
-            href="https://github.com/djcrago"
+            to="https://github.com/djcrago"
             target="_blank"
           >
             <img className={styles.logo} src={GitHub} />
             <p className={styles.link}>GitHub</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

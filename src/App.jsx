@@ -7,6 +7,7 @@ import MembersOnly from './assets/members-only.png';
 import ShoppingCart from './assets/shopping-cart.png';
 import TodoList from './assets/todo-list.png';
 import Footer from './components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -32,19 +33,19 @@ function App() {
         <section>
           <p>
             For the past year I have been working through{' '}
-            <a
+            <Link
               className={styles.link}
-              href="https://www.theodinproject.com/"
+              to="https://www.theodinproject.com/"
               target="_blank"
             >
               The Odin Project
-            </a>
+            </Link>
             , a &ldquo;high quality coding education maintained by an open
             source community.&rdquo; During this program I&rsquo;ve developed
             many{' '}
-            <a className={styles.link} href="/portfolio">
+            <Link className={styles.link} to="/portfolio">
               projects
-            </a>{' '}
+            </Link>{' '}
             from simple to complex that have prepared me to start adding value
             to your team right away.
           </p>
@@ -63,17 +64,23 @@ function App() {
           <p></p>
           <p>
             If you want to know more about my background, check out my{' '}
-            <a className={styles.link} href="/resume">
+            <Link className={styles.link} to="/resume">
               resume
-            </a>
-            .
+            </Link>
           </p>
         </section>
         <hr />
         <section>
           <p>
-            Feel free to watch this video where I walk through one of my
-            full-stack projects.
+            Feel free to watch this{' '}
+            <Link
+              className={styles.link}
+              to="https://youtu.be/6_v0XxLySDE"
+              target="_blank"
+            >
+              video
+            </Link>{' '}
+            where I walk through one of my full-stack projects
           </p>
           <iframe
             src="https://youtube.com/embed/6_v0XxLySDE"
@@ -86,7 +93,7 @@ function App() {
         <hr />
         <section>
           <h2>Recent Projects</h2>
-          <p>Here are a few of the things I&rsquo;ve been working on lately.</p>
+          <p>Here are a few of the things I&rsquo;ve been working on lately</p>
           <div className={styles.projects}>
             <ProjectCard
               src="https://github.com/djcrago/blog-api"
@@ -121,10 +128,9 @@ function App() {
           <p>
             If you&rsquo;re interested in seeing more of the cool stuff
             I&rsquo;ve made, visit my{' '}
-            <a className={styles.link} href="/portfolio">
+            <Link className={styles.link} to="/portfolio">
               portfolio page
-            </a>
-            .
+            </Link>
           </p>
         </section>
       </div>
