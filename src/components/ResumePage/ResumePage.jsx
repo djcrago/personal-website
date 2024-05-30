@@ -2,8 +2,13 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import styles from './ResumePage.module.css';
 import { Link } from 'react-router-dom';
+import { useLayoutEffect } from 'react';
 
 function ResumePage() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
       <Header />
