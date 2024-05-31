@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import styles from './ResumePage.module.css';
 import { Link } from 'react-router-dom';
 import { useLayoutEffect } from 'react';
+import Contact from '../Contact/Contact';
 
 function ResumePage() {
   useLayoutEffect(() => {
@@ -12,6 +13,8 @@ function ResumePage() {
   return (
     <>
       <Header />
+      <hr />
+      <Contact />
       <hr />
       <div className={styles.main}>
         <h2 className={styles.resumeHeader}>Education</h2>

@@ -14,6 +14,7 @@ import styles from './PortfolioPage.module.css';
 import Footer from '../Footer/Footer';
 import { useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Contact from '../Contact/Contact';
 
 function PortfolioPage() {
   useLayoutEffect(() => {
@@ -23,6 +24,8 @@ function PortfolioPage() {
   return (
     <>
       <Header />
+      <hr />
+      <Contact />
       <hr />
       <div className={styles.main}>
         <p>Here are some of the things I&rsquo;ve been working on</p>

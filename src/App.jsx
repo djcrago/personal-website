@@ -8,11 +8,14 @@ import ShoppingCart from './assets/shopping-cart.png';
 import TodoList from './assets/todo-list.png';
 import Footer from './components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <>
       <Header />
+      <hr />
+      <Contact />
       <hr />
       <div className={styles.main}>
         <section className={styles.aboutMe}>
