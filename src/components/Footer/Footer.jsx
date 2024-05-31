@@ -3,7 +3,8 @@ import styles from './Footer.module.css';
 
 function Footer() {
   return (
-    <div>
+    <div className={styles.footer}>
+      <h2>Contact Me</h2>
       <Contact />
     </div>
   );

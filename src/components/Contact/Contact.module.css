@@ -1,25 +1,8 @@
 .contact {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 3vh;
-}
-
-.contactInfo {
-  display: flex;
   gap: 2vw;
-}
-
-.personalInfo {
-  display: flex;
-  flex-direction: column;
-  gap: 2vh;
-}
-
-.socialInfo {
-  display: flex;
-  flex-direction: column;
-  gap: 1vh;
 }
 
 .logo {
