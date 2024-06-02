@@ -19,16 +19,20 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2vw;
+  gap: 3vw;
   list-style: none;
 }
 
-.resumeSection li {
+.sectionItem {
   display: flex;
   flex-direction: column;
   gap: 1vh;
-  width: 35vw;
+  width: 400px;
   min-width: min-content;
+}
+
+.sectionItem > ul {
+  margin-left: 16px;
 }
 
 .skillsSection li {
@@ -38,12 +42,9 @@
   padding: 8px;
   font-weight: 600;
   width: min-content;
-  border: 1px solid #000;
+  border: 1px solid gray;
   border-radius: 8px;
-}
-
-.long {
-  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .pdfLink {
@@ -58,12 +59,8 @@
   margin: 2vh 0 4vh 0;
 }
 
-@media (min-width: 1200px) {
-  .resumeSection li {
-    width: 17vw;
-  }
-
-  .skillsSection li {
-    width: calc(60vw / 7);
+@media (max-width: 600px) {
+  .resumeItem {
+    width: 70vw;
   }
 }
