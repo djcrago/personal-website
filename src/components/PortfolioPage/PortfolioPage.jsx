@@ -24,9 +24,9 @@ function PortfolioPage() {
   return (
     <>
       <Header />
-      <hr />
+      <hr className={styles.topHr} />
       <Contact />
-      <hr />
+      <hr className={styles.bottomHr} />
       <div className={styles.main}>
         <p>Here are some of the things I&rsquo;ve been working on</p>
         <div className={styles.projects}>

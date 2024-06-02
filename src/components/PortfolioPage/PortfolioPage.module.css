@@ -20,6 +20,14 @@
   color: rgb(46, 46, 46);
 }
 
+.topHr {
+  margin: 4vh 0 2vh 0;
+}
+
+.bottomHr {
+  margin: 2vh 0 4vh 0;
+}
+
 @media (min-width: 1200px) {
   .projects {
     flex-direction: row;

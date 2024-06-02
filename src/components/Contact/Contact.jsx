@@ -7,10 +7,6 @@ import styles from './Contact.module.css';
 function Contact() {
   return (
     <div className={styles.contact}>
-      <div className={styles.contactContainer}>
-        <img className={styles.logo} src={Email} />
-        <p>dexter18crago@gmail.com</p>
-      </div>
       <Link
         className={styles.contactContainer}
         to="https://www.linkedin.com/in/dexter-crago-62609b2b6/"
@@ -27,6 +23,10 @@ function Contact() {
         <img className={styles.logo} src={GitHub} />
         <p className={styles.link}>GitHub</p>
       </Link>
+      <div className={styles.contactContainer}>
+        <img className={styles.logo} src={Email} />
+        <p>dexter18crago@gmail.com</p>
+      </div>
     </div>
   );
 }

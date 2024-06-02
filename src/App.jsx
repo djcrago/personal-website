@@ -14,9 +14,9 @@ function App() {
   return (
     <>
       <Header />
-      <hr />
+      <hr className={styles.topHr} />
       <Contact />
-      <hr />
+      <hr className={styles.bottomHr} />
       <div className={styles.main}>
         <section className={styles.aboutMe}>
           <div className={styles.intro}>
