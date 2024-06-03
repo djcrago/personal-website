@@ -37,8 +37,8 @@ section {
 }
 
 .portrait {
-  max-width: 60vw;
-  height: auto;
+  height: 60vh;
+  max-width: auto;
 }
 
 h2 {
