@@ -5,7 +5,7 @@ import ProjectCard from './components/ProjectCard/ProjectCard';
 import BlogApi from './assets/blog-api.png';
 import MembersOnly from './assets/members-only.png';
 import ShoppingCart from './assets/shopping-cart.png';
-import TodoList from './assets/todo-list.png';
+import InventoryApplication from './assets/inventory-application.png';
 import Footer from './components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import Contact from './components/Contact/Contact';
@@ -118,11 +118,11 @@ function App() {
               live="https://djcrago-shopping-cart.netlify.app/"
             />
             <ProjectCard
-              src="https://github.com/djcrago/todo-list"
-              img={TodoList}
-              title="Todo List"
-              desc="Todo List is a todo app where users can create todo items and different projects to place those todo items in."
-              live="https://djcrago.github.io/todo-list/"
+              src="https://github.com/djcrago/inventory-application"
+              img={InventoryApplication}
+              title="Inventory Application"
+              desc="Inventory Application is an example inventory management website where employees can create, update, and delete inventory items."
+              live="https://little-family-inventory-management.fly.dev/inventory"
             />
           </div>
           <p></p>
