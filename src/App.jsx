@@ -24,10 +24,10 @@ function App() {
               A full-stack software developer ready to add value to your team.
             </p>
             <p>
-              I&rsquo;m Dexter, a full-stack web developer with a strong grasp
-              of programming fundamentals, lots of experience fixing my own
-              code, and a strong drive to continue learning and improving my
-              skills.
+              Hello! I&rsquo;m Dexter, a full stack software engineer with a
+              strong grasp of programming and code design fundamentals,
+              experience building 30+ projects from scratch, and a strong drive
+              to continue learning and improving my skills.
             </p>
           </div>
           <img className={styles.portrait} src={Portrait} alt="Dexter Crago" />
@@ -48,28 +48,51 @@ function App() {
             many{' '}
             <Link className={styles.link} to="/portfolio">
               projects
-            </Link>{' '}
-            from simple to complex that have prepared me to start adding value
-            to your team right away.
+            </Link>
+            , from a simple calculator to complex full stack web applications{' '}
+            <Link
+              className={styles.link}
+              to="https://youtu.be/6_v0XxLySDE"
+              target="_blank"
+            >
+              (like this one)
+            </Link>
+            , that have prepared me to start adding value to your team right
+            away.
           </p>
           <p>
             With a background in science education, I bring with me the ability
-            to break down complex problems into smaller, more manageable pieces,
-            a framework for solving problems and developing productive
-            solutions, and a love for cause-and-effect logical thinking.
+            to break down large problems into smaller, more manageable pieces,
+            brainstorming solutions to a problem in a logical, step-by-step,
+            way, then testing and analyzing those solutions and iterating on
+            them, and communicating complex technical concepts to both technical
+            and non-technical audiences.
           </p>
           <p>
             Other things that will make me a great addition to your team are my
-            ability to learn efficiently and come up to speed quickly, great
-            communication skills that benefit both your team and your clients,
-            and a hard-working attitude that brings reliability and focus.
+            love for cause-and-effect logical thinking, great communication
+            skills that make me a better team player and better able to serve
+            clients, a strong work ethic that makes me reliable and focused on
+            the task at hand, and a strong commitment to continue learning and
+            improving my skills. I also enjoy hiking, pickleball and chess, have
+            traveled the pacific northwest in a camper, and am passionate about
+            volunteering with at-risk youth.
           </p>
           <p></p>
           <p>
             If you want to know more about my background, check out my{' '}
             <Link className={styles.link} to="/resume">
               resume
+            </Link>{' '}
+            or{' '}
+            <Link
+              className={styles.link}
+              to="https://www.linkedin.com/in/dexter-crago-62609b2b6/"
+              target="_blank"
+            >
+              LinkedIn
             </Link>
+            .
           </p>
         </section>
         <hr />
