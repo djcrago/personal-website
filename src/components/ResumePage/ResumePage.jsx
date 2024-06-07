@@ -20,18 +20,25 @@ function ResumePage() {
         <h2 className={styles.resumeHeader}>Education</h2>
         <ul className={styles.resumeSection}>
           <li className={styles.sectionItem}>
-            <h3>Software Engineering</h3>
+            <h3>Full Stack Software Engineering</h3>
             <p>
               <em>The Odin Project</em>
             </p>
             <p>Aug 2023 - May 2024</p>
             <ul>
-              <li>Full stack web development program</li>
-              <li>Created 20+ projects from scratch</li>
-              <li>Programming & computer science fundamentals</li>
-              <li>Testing with Jest and refactoring code</li>
-              <li>Authentication, authorization, and API endpoints</li>
-              <li>Using Git extensively and working with databases</li>
+              <li>Created 30+ projects from scratch</li>
+              <li>Creating frontends with HTML, CSS, JS, and React</li>
+              <li>Creating backends with NodeJS and ExpressJS</li>
+              <li>Managing MongoDB databases with Mongoose ODM</li>
+              <li>Tests with Jest and authentication with PassportJS</li>
+              <li>Version control with Git and sending data with JSON</li>
+              <li>Creating and consuming REST APIs</li>
+              <li>Fundamental data structures and algorithms</li>
+              <li>Agile software development workflow</li>
+              <li>
+                Writing clean, efficient, and maintainable code that follows
+                industry best practices and coding standards
+              </li>
             </ul>
           </li>
           <li className={styles.sectionItem}>
@@ -41,11 +48,13 @@ function ResumePage() {
             </p>
             <p>Aug 2021 - May 2023</p>
             <ul>
-              <li>Strong logical reasoning and analysis skills</li>
+              <li>Strong logical reamsoning and analysis skills</li>
+              <li>Able to easily break down large problems</li>
               <li>
-                Communicating technical concepts to non-technical individuals
+                Great at communicating complex technical concepts to both
+                technical and non-technical audiences
               </li>
-              <li>Breaking down large problems into manageable pieces</li>
+              <li>Using a testing mindset to pinpoint issues</li>
             </ul>
           </li>
         </ul>
@@ -53,15 +62,16 @@ function ResumePage() {
         <h2 className={styles.resumeHeader}>Professional Experience</h2>
         <ul className={styles.resumeSection}>
           <li className={styles.sectionItem}>
-            <h3>High School Science Teacher</h3>
+            <h3>Science Teacher</h3>
             <p>
               <em>Stevensville High School</em>
             </p>
             <p>Jan 2023 - April 2023</p>
             <ul>
+              <li>Managed 100+ students across a variety of subjects</li>
               <li>Time management, organization, self-discipline</li>
-              <li>Responsible for teaching over 100 students</li>
-              <li>Developing creative and engaging lesson plans</li>
+              <li>Critical and creative thinking skills</li>
+              <li>Conflict resolution skills</li>
               <li>Conducted, analyzed, and presented research</li>
             </ul>
           </li>
@@ -72,9 +82,11 @@ function ResumePage() {
             </p>
             <p>Jun 2015 - Mar 2021</p>
             <ul>
-              <li>Increased sales from $500/day to $1000/day in one year</li>
-              <li>Developed new team workflows</li>
-              <li>Responsible for 100+ clients per day</li>
+              <li>Increased sales from $500 to $1000/day in one year</li>
+              <li>
+                Worked both in the front and in the back to better understand
+                the whole operation
+              </li>
               <li>Trusted with closing out registers containing $1000+</li>
               <li>Trained junior co-workers</li>
             </ul>
@@ -90,13 +102,9 @@ function ResumePage() {
                 Working closely with a team to coordinate trips and events for
                 20+ students
               </li>
-              <li>Provided tutoring and mentoring for at-risk students</li>
-              <li>
-                Organized weekly gatherings; coordinating volunteers, meals, and
-                supplies
-              </li>
-              <li>Engaging in professional development opportunities</li>
-              <li>Adaptability, teachability, ability to work autonomously</li>
+              <li>Fully engaged in professional development</li>
+              <li>Constantly considering how to better serve students</li>
+              <li>Adaptable, teachable, and self-directed</li>
             </ul>
           </li>
         </ul>
@@ -112,6 +120,7 @@ function ResumePage() {
           <li>JSON</li>
           <li>Node.js</li>
           <li>Express.js</li>
+          <li>NoSQL</li>
           <li>MongoDB</li>
           <li>Mongoose</li>
           <li>REST APIs</li>
@@ -119,8 +128,18 @@ function ResumePage() {
           <li>JWT</li>
         </ul>
         <hr />
-        <h2 className={styles.resumeHeader}>Organizations</h2>
+        <h2 className={styles.resumeHeader}>Volunteering</h2>
         <ul className={styles.organizationsSection}>
+          <li className={styles.sectionItem}>
+            <h3>Morning Star Elementary School</h3>
+            <p>
+              <em>Tech Club Leader</em>
+            </p>
+            <p>Feb 2022 - May 2022</p>
+            <ul>
+              <li>Teaching elementary students technology concepts</li>
+            </ul>
+          </li>
           <li className={styles.sectionItem}>
             <h3>Montana Indian Ministries</h3>
             <p>
@@ -129,32 +148,13 @@ function ResumePage() {
             <p>Jun 2015 - present</p>
 
             <ul>
-              <li>Managing and teaching 50+ camp counselors</li>
-              <li>
-                Responsible for the child safety on hikes, swimming, hatchet
-                throwing, etc.
-              </li>
-              <li>Planning and running daily operations</li>
-            </ul>
-          </li>
-          <li className={styles.sectionItem}>
-            <h3>Morning Star Elementary School</h3>
-            <p>
-              <em>Tech Club Leader</em>
-            </p>
-            <p>Feb 2022 - May 2022</p>
-            <ul>
-              <li>
-                Teaching elementary students math, science, technology, etc.
-                concepts
-              </li>
+              <li>Managing and guiding 50+ camp counselors</li>
             </ul>
           </li>
         </ul>
         <hr />
         <div className={styles.pdfLink}>
           <p>
-            If you&rsquo;d prefer to have the pdf version:{' '}
             <Link
               className={styles.link}
               to="../../../resume.pdf"
@@ -162,7 +162,8 @@ function ResumePage() {
               download
             >
               Download my Resume
-            </Link>
+            </Link>{' '}
+            (PDF)
           </p>
         </div>
       </div>

@@ -32,6 +32,9 @@
 }
 
 .sectionItem > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
   margin-left: 16px;
 }
 
