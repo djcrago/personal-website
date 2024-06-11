@@ -63,10 +63,9 @@ function App() {
           <p>
             With a background in science education, I bring with me the ability
             to break down large problems into smaller, more manageable pieces,
-            brainstorming solutions to a problem in a logical, step-by-step,
-            way, then testing and analyzing those solutions and iterating on
-            them, and communicating complex technical concepts to both technical
-            and non-technical audiences.
+            brainstorming solutions to a problem and then testing those
+            solutions and iterating on them, and communicating complex technical
+            concepts to both technical and non-technical audiences.
           </p>
           <p>
             Other things that will make me a great addition to your team are my

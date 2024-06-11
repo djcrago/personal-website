@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+p {
+  line-height: 1.5;
+}
+
 hr {
   width: 78vw;
 }
