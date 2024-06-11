@@ -5,20 +5,18 @@ import { Link } from 'react-router-dom';
 
 function ProjectCard({ src, img, title, desc, live }) {
   return (
-    <div className={styles.project}>
-      <Link to={live} target="_blank">
+    <Link className={styles.link} to={live} target="_blank">
+      <div className={styles.project}>
+        <h3>{title}</h3>
         <img className={styles.projectImg} src={img} alt={title} />
-      </Link>
-      <h3>
-        <p>{title}</p>
-      </h3>
-      <div className={styles.descLogoContainer}>
-        <p className={styles.desc}>{desc}</p>
-        <Link to={src} target="_blank">
-          <img className={styles.gitHubLogo} src={GitHub} />
-        </Link>
+        <div className={styles.descLogoContainer}>
+          <p className={styles.desc}>{desc}</p>
+          <Link to={src} target="_blank">
+            <img className={styles.gitHubLogo} src={GitHub} />
+          </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
