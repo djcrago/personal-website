@@ -4,6 +4,7 @@
   align-items: center;
   gap: 2vh;
   max-width: 65vw;
+  height: 70vh;
   border-radius: 8px;
   padding: 16px;
   background-color: white;
@@ -17,8 +18,12 @@
   transform: scale(1.01);
 }
 
+.tech {
+  text-align: center;
+}
+
 .projectImg {
-  max-width: 60vw;
+  max-width: calc(65vw - 32px);
   height: auto;
   transition: filter 0.1s;
   filter: grayscale(100%);
@@ -39,6 +44,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 3vw;
+  margin: auto 0;
 }
 
 .desc {
@@ -49,13 +55,13 @@
   width: 30px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1050px) {
   .project {
-    max-width: 450px;
+    max-width: 35vw;
   }
 
   .projectImg {
-    max-width: 400px;
+    max-width: calc(35vw - 32px);
   }
 }
 

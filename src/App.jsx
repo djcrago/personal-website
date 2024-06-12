@@ -123,28 +123,32 @@ function App() {
               img={BlogApi}
               title="Blog Api"
               desc="Blog Api is three connected projects that make up an example blog website. A backend API, a website where visitors can read and comment on blog posts, and a website for the blog author to create, edit, and delete blog posts."
+              tech="HTML, CSS, JavaScript, NodeJS, ExpressJS, MongoDB"
               live="https://djcrago.github.io/blog-api-user/"
             />
             <ProjectCard
               src="https://github.com/djcrago/members-only"
               img={MembersOnly}
               title="Members Only"
-              desc="Members Only is an example messaging board website where users are given different abilities and permissions based on the status of their account. For example, members can see the author and date of posts, and administrators can delete posts."
+              desc="Members Only is an example messaging board website where users are given different abilities and permissions based on their status. For example, members can see the author and date of posts, and administrators can delete posts."
+              tech="JS, Pug, CSS, NodeJS, ExpressJS, MongoDB"
               live="https://tech-talk-members-only.fly.dev/users"
-            />
-            <ProjectCard
-              src="https://github.com/djcrago/shopping-cart"
-              img={ShoppingCart}
-              title="Shopping Cart"
-              desc="Shopping Cart is an example React e-commerce website where users can add and remove items from their cart. All shop items are gathered from an API."
-              live="https://djcrago-shopping-cart.netlify.app/"
             />
             <ProjectCard
               src="https://github.com/djcrago/inventory-application"
               img={InventoryApplication}
               title="Inventory Application"
-              desc="Inventory Application is an example inventory management website where employees can create, update, and delete inventory items."
+              desc="Inventory Application is an example inventory management website where employees can create, update, and delete inventory items and categories."
+              tech="JS, Pug, CSS, NodeJS, ExpressJS, MongoDB"
               live="https://little-family-inventory-management.fly.dev/inventory"
+            />
+            <ProjectCard
+              src="https://github.com/djcrago/shopping-cart"
+              img={ShoppingCart}
+              title="Shopping Cart"
+              desc="Shopping Cart is an example e-commerce website where users can add and remove items from their cart. All shop items are received from a Rest API."
+              tech="HTML, CSS, JS, React, Rest API"
+              live="https://djcrago-shopping-cart.netlify.app/"
             />
           </div>
           <p></p>
