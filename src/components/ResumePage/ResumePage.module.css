@@ -26,16 +26,22 @@
 .sectionItem {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1vh;
-  width: 400px;
+  width: 35vw;
   min-width: min-content;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px rgb(235, 235, 235);
 }
 
 .sectionItem > ul {
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  gap: 2vh;
   margin-left: 16px;
+  list-style: none;
 }
 
 .skillsSection li {
@@ -62,8 +68,8 @@
   margin: 2vh 0 4vh 0;
 }
 
-@media (max-width: 600px) {
-  .resumeItem {
+@media (max-width: 900px) {
+  .sectionItem {
     width: 70vw;
   }
 }
