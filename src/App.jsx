@@ -116,7 +116,7 @@ function App() {
         <hr />
         <section>
           <h2>Recent Projects</h2>
-          <p>Here are a few of the things I&rsquo;ve been working on lately</p>
+          <p>Here are a few things I&rsquo;ve been working on lately</p>
           <div className={styles.projects}>
             <ProjectCard
               src="https://github.com/djcrago/blog-api"
@@ -153,11 +153,11 @@ function App() {
           </div>
           <p></p>
           <p>
-            If you&rsquo;re interested in seeing more of the cool stuff
-            I&rsquo;ve made, visit my{' '}
+            Vist my{' '}
             <Link className={styles.link} to="/portfolio">
               portfolio page
-            </Link>
+            </Link>{' '}
+            to see more of the cool stuff I&rsquo;ve made
           </p>
         </section>
       </div>

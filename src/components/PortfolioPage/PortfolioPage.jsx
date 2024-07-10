@@ -114,7 +114,7 @@ function PortfolioPage() {
         </div>
         <p></p>
         <p>
-          More examples of my code can be found on{' '}
+          More examples of my work can be found on{' '}
           <Link
             className={styles.link}
             to="https://github.com/djcrago"
