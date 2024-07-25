@@ -112,9 +112,9 @@ function App() {
           </p>
 
           <p>
-            I also enjoy hiking, pickleball and chess, have traveled the pacific
-            northwest in a camper, and am passionate about volunteering with
-            at-risk youth.
+            Finally, I enjoy hiking, pickleball and chess, have traveled the
+            pacific northwest in a camper, and am passionate about volunteering
+            with at-risk youth.
           </p>
           <p>
             If you want to know more about my background, check out my{' '}
