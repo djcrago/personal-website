@@ -21,13 +21,14 @@ function App() {
         <section className={styles.aboutMe}>
           <div className={styles.intro}>
             <p className={styles.headline}>
-              A full-stack software developer ready to add value to your team.
+              A full stack software engineer ready to add value to your team.
             </p>
             <p>
               Hello! I&rsquo;m Dexter, a full stack software engineer with a
-              strong grasp of programming and code design fundamentals,
-              experience building 30+ projects from scratch, and a strong drive
-              to continue learning and improving my skills.
+              strong grasp of programming and code design principles, a
+              portfolio of 30+ projects built from scratch, and a strong
+              commitment to continue learning and improving my skills as a
+              developer.
             </p>
           </div>
           <img className={styles.portrait} src={Portrait} alt="Dexter Crago" />
@@ -35,7 +36,8 @@ function App() {
         <hr />
         <section>
           <p>
-            For the past year I have been working through{' '}
+            I have a software engineering and development background, after
+            completing a full stack curriculum from{' '}
             <Link
               className={styles.link}
               to="https://www.theodinproject.com/"
@@ -43,41 +45,77 @@ function App() {
             >
               The Odin Project
             </Link>
-            , a &ldquo;high quality coding education maintained by an open
-            source community.&rdquo; During this program I&rsquo;ve developed
-            many{' '}
-            <Link className={styles.link} to="/portfolio">
-              projects
-            </Link>
-            , from a simple calculator to complex full stack web applications{' '}
+            , and doing contract work as a software engineer for{' '}
             <Link
               className={styles.link}
-              to="https://youtu.be/6_v0XxLySDE"
+              to="https://outlier.ai/"
               target="_blank"
             >
-              (like this one)
+              Outlier
             </Link>
-            , that have prepared me to start adding value to your team right
-            away.
+            .
           </p>
           <p>
-            With a background in science education, I bring with me the ability
-            to break down large problems into smaller, more manageable pieces,
-            brainstorming solutions to a problem and then testing those
-            solutions and iterating on them, and communicating complex technical
-            concepts to both technical and non-technical audiences.
+            In the Odin Project I became able to confidently and independently
+            build a full stack website.
           </p>
           <p>
-            Other things that will make me a great addition to your team are my
-            love for cause-and-effect logical thinking, great communication
-            skills that make me a better team player and better able to serve
-            clients, a strong work ethic that makes me reliable and focused on
-            the task at hand, and a strong commitment to continue learning and
-            improving my skills. I also enjoy hiking, pickleball and chess, have
-            traveled the pacific northwest in a camper, and am passionate about
-            volunteering with at-risk youth.
+            <li>Responsive Frontends: HTML, CSS, JavaScript, and React.js</li>
+            <li>Backend Servers: Node.js, Express.js, and REST APIs</li>
+            <li>Database Management: MongooseODM and MongoDB</li>
+            <li>Testing: Jest</li>
+            <li>Authentication: Passport.js and JWT</li>
+            <li>Version Control: Git</li>
           </p>
-          <p></p>
+          <p>
+            Other aspects of my training included a strong foundation in
+            programming fundamentals, code design principles, fundamental data
+            structures and algorithms, and object-oriented design principles.
+            Additionally, I developed an agile mindset and a practice of always
+            writing clear, efficient, and maintainable code that follows
+            industry best practices and coding standards.
+          </p>
+          <p>
+            After my education I accepted contract work as a software engineer
+            with Outlier, a company concerned with building generative AI
+            models. Aspects of my contract work have included evaluating the
+            quality of AI-generated code, engaging in a cycle of feedback and
+            improvement, solving coding problems, and writing functional and
+            efficient code.
+          </p>
+          <p>
+            Before completing the Odin Project, I received my bachelor degree
+            from Montana State University in science education. My education in
+            logical thinking, the scientific method, how to learn and teach, and
+            problem solving coincides with many aspects of software development.
+          </p>
+          <p>
+            <li>
+              Taking large problems and breaking them down into smaller, more
+              manageable pieces
+            </li>
+            <li>
+              Brainstorming solutions to a problem and then testing, analyzing,
+              and iterating on those solutions
+            </li>
+            <li>
+              Communicating complex technical concepts to both technical and
+              non-technical audiences
+            </li>
+          </p>
+          <p>
+            I am detail-oriented, organized, self-disciplined, take ownership of
+            my own work, and have a strong work ethic, all of which makes me
+            reliable and keeps me focused on the task at hand. I also have great
+            communication skills that make me a better team player and better
+            able to serve clients.
+          </p>
+
+          <p>
+            I also enjoy hiking, pickleball and chess, have traveled the pacific
+            northwest in a camper, and am passionate about volunteering with
+            at-risk youth.
+          </p>
           <p>
             If you want to know more about my background, check out my{' '}
             <Link className={styles.link} to="/resume">
@@ -157,7 +195,7 @@ function App() {
             <Link className={styles.link} to="/portfolio">
               portfolio page
             </Link>{' '}
-            to see more of the cool stuff I&rsquo;ve made
+            to see more of my work
           </p>
         </section>
       </div>
