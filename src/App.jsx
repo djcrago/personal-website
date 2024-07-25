@@ -56,8 +56,10 @@ function App() {
             .
           </p>
           <p>
-            In the Odin Project I became able to confidently and independently
-            build a full stack website.
+            The Odin Project provides a full stack web development curriculum.
+            During that program I became able to confidently and independently
+            build a full stack website from scratch using a variety of
+            technologies.
           </p>
           <p>
             <li>Responsive Frontends: HTML, CSS, JavaScript, and React.js</li>
