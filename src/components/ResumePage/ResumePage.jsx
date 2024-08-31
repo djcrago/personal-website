@@ -26,12 +26,15 @@ function ResumePage() {
             </p>
             <p>June 2024 - present</p>
             <ul>
-              <li>Evaluating the quality of AI-generated code</li>
-              <li>Engaging in a cycle of feedback and improvement</li>
-              <li>Solving coding problems</li>
-              <li>Writing functional and efficient code</li>
-              <li>Writing test cases to confirm code works efficiently</li>
-              <li>Creating instructions to help others</li>
+              <li>
+                Working on multiple projects evaluating the quality of
+                AI-generated code based on accuracy, efficiency,
+                maintainability, readability, etc.
+              </li>
+              <li>Developing robust solutions to coding problems</li>
+              <li>Coding to high functional and efficiency standards</li>
+              <li>Testing and debugging coding solutions</li>
+              <li>Training others through a Slack channel</li>
             </ul>
           </li>
           <li className={styles.sectionItem}>
@@ -42,10 +45,12 @@ function ResumePage() {
             <p>Jan 2023 - April 2023</p>
             <ul>
               <li>Managed 100+ students across a variety of subjects</li>
-              <li>Time management, organization, self-discipline</li>
-              <li>Critical and creative thinking skills</li>
-              <li>Conflict resolution skills</li>
-              <li>Conducted, analyzed, and presented research</li>
+              <li>Developed new teaching strategies and approaches</li>
+              <li>Maintained an organized environment</li>
+              <li>
+                Descalated tense situations with students and coworkers when
+                necessary
+              </li>
             </ul>
           </li>
           <li className={styles.sectionItem}>
@@ -56,10 +61,6 @@ function ResumePage() {
             <p>Jun 2015 - Mar 2021</p>
             <ul>
               <li>Increased sales from $500 to $1000/day in one year</li>
-              <li>
-                Worked both in the front and in the back to better understand
-                the whole operation
-              </li>
               <li>Trusted with closing out registers containing $1000+</li>
               <li>Trained junior co-workers</li>
             </ul>
@@ -72,12 +73,17 @@ function ResumePage() {
             <p>Jun 2018 - Jun 2020</p>
             <ul>
               <li>
-                Working closely with a team to coordinate trips and events for
-                20+ students
+                Successfully started and operated a weekly lunch time program at
+                a local high school
               </li>
-              <li>Fully engaged in professional development</li>
-              <li>Constantly considering how to better serve students</li>
-              <li>Adaptable, teachable, and self-directed</li>
+              <li>
+                Collaborated with diverse teams of 2 - 20 people from multiple
+                background and organizations
+              </li>
+              <li>
+                Found new methods of engaging student participation in
+                after-school programs
+              </li>
             </ul>
           </li>
         </ul>
@@ -92,11 +98,11 @@ function ResumePage() {
             <p>Aug 2023 - May 2024</p>
             <ul>
               <li>Created 30+ projects from scratch</li>
-              <li>Creating frontends with HTML, CSS, JS, and React</li>
-              <li>Creating backends with NodeJS and ExpressJS</li>
-              <li>Managing MongoDB databases with Mongoose ODM</li>
-              <li>Tests with Jest and authentication with PassportJS</li>
-              <li>Version control with Git and sending data with JSON</li>
+              <li>Responsive frontends with HTML, CSS, JS, and React</li>
+              <li>Secure backends with Node.js and Express.js</li>
+              <li>MongoDB databases managed with Mongoose ODM</li>
+              <li>Jest testing and PassportJS authentication</li>
+              <li>Git version control and JSON data transfer</li>
               <li>Creating and consuming REST APIs</li>
               <li>Fundamental data structures and algorithms</li>
               <li>Agile software development workflow</li>
@@ -114,7 +120,7 @@ function ResumePage() {
             <p>Aug 2021 - May 2023</p>
             <ul>
               <li>Secondary Education - Broadfield Science</li>
-              <li>Strong logical reamsoning and analysis skills</li>
+              <li>Strong critical thinking and analysis skills</li>
               <li>Able to easily break down large problems</li>
               <li>
                 Great at communicating complex technical concepts to both
@@ -128,21 +134,25 @@ function ResumePage() {
         <hr />
         <h2 className={styles.resumeHeader}>Skills</h2>
         <ul className={styles.skillsSection}>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git VCS</li>
-          <li>React.js</li>
+          <li>CSS3</li>
+          <li>Debugging</li>
+          <li>Express.js</li>
+          <li>Git</li>
+          <li>HTML5</li>
+          <li>ES5+ JavaScript</li>
           <li>Jest</li>
           <li>JSON</li>
-          <li>REST APIs</li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>NoSQL</li>
           <li>JWT</li>
           <li>MongoDB</li>
           <li>Mongoose ODM</li>
+          <li>Node.js</li>
+          <li>NoSQL</li>
           <li>Passport.js</li>
+          <li>Professionalism</li>
+          <li>React.js</li>
+          <li>REST APIs</li>
+          <li>VS Code</li>
+          <li>Webpack</li>
         </ul>
         <hr />
         <h2 className={styles.resumeHeader}>Volunteering</h2>
