@@ -20,21 +20,20 @@ function ResumePage() {
         <h2 className={styles.resumeHeader}>Professional Experience</h2>
         <ul className={styles.resumeSection}>
           <li className={styles.sectionItem}>
-            <h3>Software Engineer - Contract</h3>
+            <h3>Software Engineer</h3>
             <p>
-              <em>Outlier</em>
+              <em>Outlier - Contract</em>
             </p>
             <p>June 2024 - present</p>
             <ul>
               <li>
                 Working on multiple projects evaluating the quality of
-                AI-generated code based on accuracy, efficiency,
-                maintainability, readability, etc.
+                AI-generated code based on accuracy, maintainability,
+                readability, etc.
               </li>
               <li>Developing robust solutions to coding problems</li>
               <li>Coding to high functional and efficiency standards</li>
               <li>Testing and debugging coding solutions</li>
-              <li>Training others through a Slack channel</li>
             </ul>
           </li>
           <li className={styles.sectionItem}>
@@ -54,21 +53,9 @@ function ResumePage() {
             </ul>
           </li>
           <li className={styles.sectionItem}>
-            <h3>Server</h3>
-            <p>
-              <em>Montana Club</em>
-            </p>
-            <p>Jun 2015 - Mar 2021</p>
-            <ul>
-              <li>Increased sales from $500 to $1000/day in one year</li>
-              <li>Trusted with closing out registers containing $1000+</li>
-              <li>Trained junior co-workers</li>
-            </ul>
-          </li>
-          <li className={styles.sectionItem}>
             <h3>Youth Worker</h3>
             <p>
-              <em>City Life Community Center</em>
+              <em>Youth For Christ</em>
             </p>
             <p>Jun 2018 - Jun 2020</p>
             <ul>
@@ -98,12 +85,11 @@ function ResumePage() {
             <p>Aug 2023 - May 2024</p>
             <ul>
               <li>Created 30+ projects from scratch</li>
-              <li>Responsive frontends with HTML, CSS, JS, and React</li>
-              <li>Secure backends with Node.js and Express.js</li>
-              <li>MongoDB databases managed with Mongoose ODM</li>
-              <li>Jest testing and PassportJS authentication</li>
-              <li>Git version control and JSON data transfer</li>
-              <li>Creating and consuming REST APIs</li>
+              <li>Strong proficiency in JavaScript</li>
+              <li>Responsive and accessible frontends</li>
+              <li>Secure and tested backends</li>
+              <li>NoSQL database management</li>
+              <li>Atomic commits</li>
               <li>Fundamental data structures and algorithms</li>
               <li>Agile software development workflow</li>
               <li>
@@ -134,6 +120,7 @@ function ResumePage() {
         <hr />
         <h2 className={styles.resumeHeader}>Skills</h2>
         <ul className={styles.skillsSection}>
+          <li>Bash</li>
           <li>CSS3</li>
           <li>Debugging</li>
           <li>Express.js</li>
@@ -148,7 +135,6 @@ function ResumePage() {
           <li>Node.js</li>
           <li>NoSQL</li>
           <li>Passport.js</li>
-          <li>Professionalism</li>
           <li>React.js</li>
           <li>REST APIs</li>
           <li>VS Code</li>
