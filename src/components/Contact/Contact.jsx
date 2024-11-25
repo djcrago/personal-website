@@ -23,10 +23,14 @@ function Contact() {
         <img className={styles.logo} src={GitHub} />
         <p className={styles.link}>GitHub</p>
       </Link>
-      <div className={styles.contactContainer}>
+      <Link
+        className={styles.contactContainer}
+        to="mailto:dexter18crago@gmail.com"
+        target="_blank"
+      >
         <img className={styles.logo} src={Email} />
-        <p>dexter18crago@gmail.com</p>
-      </div>
+        <p className={styles.link}>dexter18crago@gmail.com</p>
+      </Link>
     </div>
   );
 }
