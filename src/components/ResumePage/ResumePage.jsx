@@ -20,6 +20,18 @@ function ResumePage() {
         <h2 className={styles.resumeHeader}>Professional Experience</h2>
         <ul className={styles.resumeSection}>
           <li className={styles.sectionItem}>
+            <h3>Substitute Teacher</h3>
+            <p>
+              <em>Hellgate Elementary</em>
+            </p>
+            <p>Oct 2024 - present</p>
+            <ul>
+              <li>Adapting quickly to new expectations and roles</li>
+              <li>Working collaboratively with a wide variety of staff</li>
+              <li>Communication, communication, communication</li>
+            </ul>
+          </li>
+          <li className={styles.sectionItem}>
             <h3>Software Engineer</h3>
             <p>
               <em>Outlier - Contract</em>
@@ -78,6 +90,19 @@ function ResumePage() {
         <h2 className={styles.resumeHeader}>Education</h2>
         <ul className={styles.resumeSection}>
           <li className={styles.sectionItem}>
+            <h3>Learn Java</h3>
+            <p>
+              <em>Codecademy</em>
+            </p>
+            <p>Oct 2024 - Nov 2024</p>
+            <ul>
+              <li>14 coding projects</li>
+              <li>Objected-oriented programming</li>
+              <li>Access, encapsulation, and static methods</li>
+              <li>Inheritance and polymorphism</li>
+            </ul>
+          </li>
+          <li className={styles.sectionItem}>
             <h3>Full Stack Software Engineering</h3>
             <p>
               <em>The Odin Project</em>
@@ -126,6 +151,7 @@ function ResumePage() {
           <li>Express.js</li>
           <li>Git</li>
           <li>HTML5</li>
+          <li>Java</li>
           <li>ES5+ JavaScript</li>
           <li>Jest</li>
           <li>JSON</li>
