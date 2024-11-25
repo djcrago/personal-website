@@ -48,8 +48,7 @@ function App() {
               >
                 Odin Project
               </Link>
-              , I&rsquo;ve gone on to do further learning (Java most recently)
-              on the{' '}
+              , I&rsquo;m doing further learning (Java most recently) on the{' '}
               <Link
                 className={styles.link}
                 to="https://www.codecademy.com/learn"
@@ -65,37 +64,17 @@ function App() {
         <hr />
         <section>
           <p>
-            My software development experience comes from the{' '}
+            The{' '}
             <Link
               className={styles.link}
               to="https://www.theodinproject.com/"
               target="_blank"
             >
               Odin Project
-            </Link>
-            , doing contract work as a software engineer for{' '}
-            <Link
-              className={styles.link}
-              to="https://outlier.ai/"
-              target="_blank"
-            >
-              Outlier AI
-            </Link>
-            , and continuing education on the{' '}
-            <Link
-              className={styles.link}
-              to="https://www.codecademy.com/learn"
-              target="_blank"
-            >
-              Codecademy
             </Link>{' '}
-            platform.
-          </p>
-          <p>
-            The Odin Project provides a full stack web development curriculum.
-            During that program I became able to confidently and independently
-            build a full stack website from scratch using a variety of
-            technologies.
+            provides a full stack web development curriculum. During that
+            program I became able to confidently and independently build a full
+            stack website from scratch using a variety of technologies.
           </p>
           <div className={styles.logoContainer}>
             <p>
@@ -128,8 +107,15 @@ function App() {
           <p>~ ~ ~</p>
           <p>
             After my education I accepted contract work as a software engineer
-            with Outlier AI, a company concerned with building generative AI
-            models.
+            with{' '}
+            <Link
+              className={styles.link}
+              to="https://outlier.ai/"
+              target="_blank"
+            >
+              Outlier AI
+            </Link>
+            , a company concerned with building generative AI models.
           </p>
           <div className={styles.logoContainer}>
             <Link
@@ -159,9 +145,17 @@ function App() {
           <p>~ ~ ~</p>
           <p>
             Since then I&rsquo;ve continued to learn new technologies through
-            the Codecademy platform. I&rsquo;m interested in learning a wider
-            range of technologies to continue leveling up my abilities and gain
-            a deeper understanding or different coding methodologies.
+            the{' '}
+            <Link
+              className={styles.link}
+              to="https://www.codecademy.com/learn"
+              target="_blank"
+            >
+              Codecademy
+            </Link>{' '}
+            platform. I&rsquo;m interested in learning a wider range of
+            technologies to continue leveling up my abilities and gain a deeper
+            understanding or different coding methodologies.
           </p>
           <div className={styles.logoContainer}>
             <p>
