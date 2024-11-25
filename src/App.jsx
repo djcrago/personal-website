@@ -1,5 +1,8 @@
 import Header from './components/Header/Header';
 import Portrait from './assets/portrait-picture.png';
+import TOPLogo from './assets/top-logo.png';
+import OutlierLogo from './assets/outlier-logo.png';
+import CodecademyLogo from './assets/codecademy-logo.png';
 import Belknap from './assets/belknap.jpeg';
 import styles from './App.module.css';
 import ProjectCard from './components/ProjectCard/ProjectCard';
@@ -26,10 +29,35 @@ function App() {
             </p>
             <p>
               Hello! I&rsquo;m Dexter, a full stack software developer with a
-              portfolio of 30+ websites and projects built from scratch,
-              experience doing contract work for Outlier AI, and a strong
-              commitment to continue learning and improving my skills as a
-              developer.
+              portfolio of 30+ full stack websites and projects built from
+              scratch, experience doing contract work as a software engineer for{' '}
+              <Link
+                className={styles.link}
+                to="https://outlier.ai/"
+                target="_blank"
+              >
+                Outlier AI
+              </Link>
+              , and a strong desire to continue learning and improving my skills
+              as a developer. For example, after completing a full stack web
+              development curriculum from the{' '}
+              <Link
+                className={styles.link}
+                to="https://www.theodinproject.com/"
+                target="_blank"
+              >
+                Odin Project
+              </Link>
+              , I&rsquo;ve gone on to do further learning (Java most recently)
+              on the{' '}
+              <Link
+                className={styles.link}
+                to="https://www.codecademy.com/learn"
+                target="_blank"
+              >
+                Codecademy
+              </Link>{' '}
+              platform.
             </p>
           </div>
           <img className={styles.portrait} src={Portrait} alt="Dexter Crago" />
@@ -37,16 +65,15 @@ function App() {
         <hr />
         <section>
           <p>
-            I have a software engineering and development background, after
-            completing a full stack web development curriculum from{' '}
+            My software development experience comes from the{' '}
             <Link
               className={styles.link}
               to="https://www.theodinproject.com/"
               target="_blank"
             >
-              The Odin Project
+              Odin Project
             </Link>
-            , and doing contract work as a software engineer for{' '}
+            , doing contract work as a software engineer for{' '}
             <Link
               className={styles.link}
               to="https://outlier.ai/"
@@ -54,7 +81,15 @@ function App() {
             >
               Outlier AI
             </Link>
-            .
+            , and continuing education on the{' '}
+            <Link
+              className={styles.link}
+              to="https://www.codecademy.com/learn"
+              target="_blank"
+            >
+              Codecademy
+            </Link>{' '}
+            platform.
           </p>
           <p>
             The Odin Project provides a full stack web development curriculum.
@@ -62,13 +97,26 @@ function App() {
             build a full stack website from scratch using a variety of
             technologies.
           </p>
-          <p>
-            <li>Responsive Frontends: HTML, CSS, JavaScript, and React.js</li>
-            <li>Backend Servers: Node.js, Express.js, and REST APIs</li>
-            <li>Database Management: MongooseODM and MongoDB</li>
-            <li>Authentication: Passport.js and JWT</li>
-            <li>Other: Jest, Git, Webpack, VS Code, etc.</li>
-          </p>
+          <div className={styles.logoContainer}>
+            <p>
+              <li>Responsive Frontends: HTML, CSS, JavaScript, and React.js</li>
+              <li>Backend Servers: Node.js, Express.js, and REST APIs</li>
+              <li>Database Management: MongooseODM and MongoDB</li>
+              <li>Authentication: Passport.js and JWT</li>
+              <li>Other: Jest, Git, Webpack, VS Code, etc.</li>
+            </p>
+            <Link
+              className={styles.link}
+              to="https://www.theodinproject.com/"
+              target="_blank"
+            >
+              <img
+                className={styles.logo}
+                src={TOPLogo}
+                alt="The Odin Project logo. It is a cartoon headshot of the greek god Odin."
+              />
+            </Link>
+          </div>
           <p>
             Other aspects of my training included a strong foundation in
             programming fundamentals, code design principles, fundamental data
@@ -77,20 +125,64 @@ function App() {
             writing clear, efficient, and maintainable code that follows
             industry best practices and coding standards.
           </p>
+          <p>~ ~ ~</p>
           <p>
             After my education I accepted contract work as a software engineer
             with Outlier AI, a company concerned with building generative AI
-            models. Some of my tasks have included working on multiple projects
-            evaluating the quality of AI-generated code, developing robust
-            solutions to coding problems, coding to high functional and
-            efficiency standards, testing and debugging coding solutions, and
-            training others through a Slack channel. For example, one project
-            included reviewing two code samples generated by an AI model,
-            determining which code is better based on accuracy and efficiency,
-            and returning my analysis to the model for it to learn from. In
-            another project I did the same thing but instead analyzed the code’s
-            style, it&rsquo;s readability and maintainability.
+            models.
           </p>
+          <div className={styles.logoContainer}>
+            <Link
+              className={styles.link}
+              to="https://outlier.ai/"
+              target="_blank"
+            >
+              <img
+                className={styles.logo}
+                src={OutlierLogo}
+                alt="The Outlier Ai logo. It is two colored disks above the word 'Outlier'."
+              />
+            </Link>
+            <p>
+              <li>Evaluating the quality of AI-generated code</li>
+              <li>Developing robust solutions to coding problems</li>
+              <li>Coding to high functional and efficiency standards</li>
+              <li>Testing and debugging coding solutions</li>
+            </p>
+          </div>
+          <p>
+            Projects have involved reviewing two code samples generated by an AI
+            model, determining which code is better based on accuracy,
+            efficiency, readability, and maintainability, and returning my
+            analysis to the model for it to learn from.
+          </p>
+          <p>~ ~ ~</p>
+          <p>
+            Since then I&rsquo;ve continued to learn new technologies through
+            the Codecademy platform. I&rsquo;m interested in learning a wider
+            range of technologies to continue leveling up my abilities and gain
+            a deeper understanding or different coding methodologies.
+          </p>
+          <div className={styles.logoContainer}>
+            <p>
+              <div className={styles.courseTitle}>Java:</div>
+              <li>Objected-oriented programming</li>
+              <li>Access, encapsulation, and static methods</li>
+              <li>Inheritance and polymorphism</li>
+            </p>
+            <Link
+              className={styles.link}
+              to="https://www.codecademy.com/learn"
+              target="_blank"
+            >
+              <img
+                className={styles.logo}
+                src={CodecademyLogo}
+                alt="The Codecademy logo. It is a c in a black box."
+              />
+            </Link>
+          </div>
+          <p>~ ~ ~</p>
           <p>
             Before completing the Odin Project, I received my bachelor degree
             from Montana State University in science education. My education in
