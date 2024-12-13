@@ -1,5 +1,6 @@
 import Header from '../Header/Header';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import EnneagramTest from '../../assets/enneagram-test.png';
 import BlogApi from '../../assets/blog-api.png';
 import MembersOnly from '../../assets/members-only.png';
 import InventoryApplication from '../../assets/inventory-application.png';
@@ -31,6 +32,14 @@ function PortfolioPage() {
         <h2>My Current Projects</h2>
         <p></p>
         <div className={styles.projects}>
+          <ProjectCard
+            src="https://github.com/djcrago/blog-api"
+            img={EnneagramTest}
+            title="Enneagram Test"
+            desc="Enneagram Test is a personality test you can run at the command line!"
+            tech="Java"
+            live="https://github.com/djcrago/enneagram"
+          />
           <ProjectCard
             src="https://github.com/djcrago/blog-api"
             img={BlogApi}

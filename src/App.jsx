@@ -6,6 +6,7 @@ import CodecademyLogo from './assets/codecademy-logo.png';
 import Belknap from './assets/belknap.jpeg';
 import styles from './App.module.css';
 import ProjectCard from './components/ProjectCard/ProjectCard';
+import EnneagramTest from './assets/enneagram-test.png';
 import BlogApi from './assets/blog-api.png';
 import MembersOnly from './assets/members-only.png';
 import ShoppingCart from './assets/shopping-cart.png';
@@ -256,6 +257,14 @@ function App() {
           <h2>Recent Projects</h2>
           <p>Here are a few things I&rsquo;ve been working on lately</p>
           <div className={styles.projects}>
+            <ProjectCard
+              src="https://github.com/djcrago/blog-api"
+              img={EnneagramTest}
+              title="Enneagram Test"
+              desc="Enneagram Test is a personality test you can run at the command line!"
+              tech="Java"
+              live="https://github.com/djcrago/enneagram"
+            />
             <ProjectCard
               src="https://github.com/djcrago/blog-api"
               img={BlogApi}
